@@ -194,6 +194,17 @@ The potential function considers the lander's position, velocity, and orientatio
 
 For the implementation and detailed experimental analysis, see [`experiments/results.md`](experiments/results.md).
 
+## Project Workflow
+
+The project follows this workflow:
+
+1. Environment Setup – Initialize LunarLander-v3 using Gymnasium.
+2. Model Training – Train PPO agents using Stable-Baselines3.
+3. Hyperparameter Optimization – Experiment with Optuna.
+4. Reward Shaping – Apply potential-based reward shaping.
+5. Evaluation – Compare agent performance across multiple episodes.
+6. Visualization – Record and analyze agent landing performance.
+
 ## Future Improvements
 
 - Experiment with alternative potential functions and shaping weights.
