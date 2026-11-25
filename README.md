@@ -26,6 +26,21 @@ All models were evaluated over 100 episodes using identical seeds (1000–1099) 
 | Worst Reward | -100.07 | -144.02 | **-4.50** |
 | Positive-Reward Episodes | 79/100 | 70/100 | **99/100** |
 
+
+## Performance Visualizations
+
+The following graphs compare the three PPO models over 100 evaluation episodes using the same environment and evaluation seeds.
+
+### Average Reward
+![Average Reward](experiments/plots/average_reward.png)
+
+### Reward Standard Deviation
+![Reward Standard Deviation](experiments/plots/reward_std_deviation.png)
+
+### Positive-Reward Episodes
+![Positive-Reward Episodes](experiments/plots/positive_episodes.png)
+
+
 ### Key Findings
 
 - Reward shaping improved average evaluation reward by approximately **81.5%** compared with baseline PPO.
