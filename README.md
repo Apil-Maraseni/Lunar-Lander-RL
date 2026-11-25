@@ -50,6 +50,20 @@ All models were evaluated over 100 episodes using identical seeds (1000–1099) 
 
 These results indicate that reward shaping substantially improved the observed performance and consistency of the agent in this experiment.
 
+## Model Evaluation
+
+The trained agents were evaluated over 100 episodes using
+consistent evaluation settings.
+
+| Model | Mean Reward |
+|---|---:|
+| Baseline PPO | 129.47 |
+| Tuned PPO | 93.52 |
+| Reward-Shaped PPO | 235.02 |
+
+Reward shaping improved the mean evaluation reward by
+approximately 81.5% compared with the baseline model.
+
 ## Technologies Used
 
 - Python
